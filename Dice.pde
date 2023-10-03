@@ -1,13 +1,13 @@
 void setup()
   {
       size(800,500);
-      background(0);
       noLoop();
       textAlign(CENTER);
   }
   void draw()
   {
       //your code here
+      background(0);
       int sum = 0;
       for(int x = 40; x < 700; x = x + 125){
         for(int y = 50; y < 400; y = y + 125){
