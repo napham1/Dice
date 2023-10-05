@@ -44,38 +44,58 @@ void setup()
       {
           fill(255);
           rect(myX, myY, 100, 100);
-          fill(0);
           if(dienumber == 1){
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 50, myY + 50, 10,10);
           }
           else if(dienumber == 2){
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 50, myY + 70, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 50, myY + 30, 10, 10);
           }
           else if(dienumber == 3){
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 30, myY + 30, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 50, myY + 50, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 70, myY + 70, 10, 10);
           }
           else if(dienumber == 4){
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 30, myY + 30, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 30, myY + 70, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 70, myY + 30, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 70, myY + 70, 10, 10);
           }
           else if(dienumber == 5){
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 30, myY + 30, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 30, myY + 70, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 70, myY + 30, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 70, myY + 70, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 50, myY + 50, 10, 10);
           }
           else if(dienumber == 6){
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 30, myY + 50, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 30, myY + 70, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 30, myY + 30, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 70, myY + 70, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 70, myY + 50, 10, 10);
+            fill((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
             ellipse(myX + 70, myY + 30, 10, 10);
           }
            
